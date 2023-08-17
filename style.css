@@ -105,7 +105,8 @@ button.loading{
     text-align: center;
 }
 .quote {
-    white-space: nowrap;
+    white-space: pre-line;
     overflow-wrap: break-word;
 }
+
 
