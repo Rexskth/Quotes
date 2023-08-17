@@ -104,3 +104,6 @@ button.loading{
 .name {
     text-align: center;
 }
+.quote {
+    white-space: pre-line;
+}
