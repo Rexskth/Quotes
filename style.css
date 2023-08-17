@@ -44,7 +44,12 @@ body{
 .quote-area .quote{
     font-size: 22px;
     text-align: center;
-    word-break: break-all;
+    text-align: center;
+    word-break: keep-all; /* Prevents breaking within words */
+    white-space: pre-line; /* Preserves line breaks */
+    overflow-wrap: break-word; /* Allows wrapping at word boundaries */
+
+/*     word-break: break-all; */
 }
 .content .author{
     display: flex;
